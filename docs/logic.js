@@ -2,9 +2,7 @@ let suma = 0;
 let tiradas = 0;
 
 function reintentar() {
-    suma = 0;
-    tiradas = 0;
-    tirar();
+    location.reload();
 }
 
 function tirar() {
