@@ -1,9 +1,6 @@
 let suma = 0;
 let tiradas = 0;
 
-function reintentar() {
-    location.reload();
-}
 
 function tirar() {
     const xhttp = new XMLHttpRequest;
